@@ -1,0 +1,29 @@
+{
+    "msg": null,
+    "code": null,
+    "data": {
+        "id": 1,
+        "name": "红苹果",
+        "shortName": "苹果",
+        "description": "商品描述",
+        "hotKey": "bc",
+        "catalogId": [1,2],
+        "status": 0,
+        "productLevelArry": [
+            {
+                "id": 1,
+                "name": "优质",
+                "description": "描述",
+                "ordinal": 0,
+                "status": true
+            },
+            {
+                "id": 2,
+                "name": "cha",
+                "description": "描述",
+                "ordinal": 0,
+                "status": true
+            }
+        ]
+    }
+}

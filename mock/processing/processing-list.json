@@ -1,0 +1,36 @@
+{
+  "msg": "string",
+  "code": "0",
+  "data": {
+    "paging": {
+      "total": 100,
+      "pageSize": 10,
+      "pageIndex": 1
+    },
+    "itemList": [
+      {
+        "orderNumber": "string",
+        "catalogCount": "string",
+        "quantity": 0,
+        "grossEeight": 0,
+        "sumWeight": 0,
+        "amount": 0,
+        "packingPrice": 0,
+        "sumPackingPrice": 0,
+        "loadAmount": 0,
+        "sumBoxPrice": 0,
+        "sumBottlePrice": 0,
+        "quiltQuantity": 0,
+        "quiltPrice": 0,
+        "quiltAmount": 0,
+        "otherAmount": 0,
+        "remark": "string",
+        "submitUserName": "string",
+        "submitTime": "string",
+        "auditUserName": "string",
+        "auditTime": "string",
+        "status": 0
+      }
+    ]
+  }
+}

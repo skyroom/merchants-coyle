@@ -1,0 +1,31 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "fee1": 0,
+    "fee2": 0,
+    "fee3": 0,
+    "fee4": 0,
+    "fee5": 0,
+    "fee6": 0,
+    "otherFee": 0,
+    "detailList": [
+      {
+        "orderNumber": "string",
+        "productName": "string",
+        "levelName": "string",
+        "origin": "string",
+        "weight": 0,
+        "quantity": "string",
+        "saleQuantity": "string",
+        "saleWeight": 0,
+        "amount": 0,
+        "consignmentAmount": 0,
+        "cashAmount": 0,
+        "saleYield": 0,
+        "saleTime": "string",
+        "submitUserName": "string"
+      }
+    ]
+  }
+}

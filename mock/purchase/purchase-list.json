@@ -1,0 +1,26 @@
+{
+  "msg": "string",
+  "code": "0",
+  "data": {
+    "paging": {
+      "total": 100,
+      "pageSize": 10,
+      "pageIndex": 1
+    },
+    "itemList": [
+      {
+        "orderNumber": 111111,
+        "goodsNumber": 33,
+        "totalWeight": 22,
+        "totalPrice": 1333,
+        "purchaseTime": "2016-2-3",
+        "status": 1,
+        "submitUserName": "admin",
+        "submitTime": "2017-3-1",
+        "audiTime": "2017-3-4",
+        "auditUserName": "admin"
+
+      }
+    ]
+  }
+}

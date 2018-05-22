@@ -1,0 +1,52 @@
+{
+    "msg": "string",
+    "code": null,
+    "data": {
+        "paging": {
+            "total": 100,
+            "pageSize": 10,
+            "pageIndex": 1
+        },
+        "itemList": [{
+            "id": 1,
+            "areaName": "四川省",
+            "marketName": "市场",
+            "shorttName": "简称",
+            "hotKey": "cf",
+            "createTime": "2017-07-18 10:20:00",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 0
+        }, {
+            "id": 2,
+            "areaName": "红苹果",
+            "marketName": "蔬菜 - 白菜",
+            "shorttName": "王浩",
+            "hotKey": "",
+            "createTime": "2017-07-18 10:20:00",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 1
+        }, {
+            "id": 3,
+            "areaName": "红苹果",
+            "marketName": "蔬菜 - 白菜",
+            "shorttName": "王浩",
+            "hotKey": "",
+            "createTime": "2017-07-18 10:20:00",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 1
+        }, {
+            "id": 4,
+            "areaName": "红苹果",
+            "marketName": "蔬菜 - 白菜",
+            "shorttName": "王浩",
+            "hotKey": "",
+            "createTime": "2017-07-18 10:20:00",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 0
+        }]
+    }
+}

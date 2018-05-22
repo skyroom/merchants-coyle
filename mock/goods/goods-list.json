@@ -1,0 +1,48 @@
+{
+    "msg": "string",
+    "code": null,
+    "data": {
+        "paging": {
+            "total": 100,
+            "pageSize": 10,
+            "pageIndex": 1
+        },
+        "itemList": [{
+            "id": 1,
+            "name": "红苹果",
+            "catalogName": "蔬菜 - 白菜",
+            "createUserName": "王浩",
+            "createTime": "2017-07-18 10:20:00",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 0
+        }, {
+            "id": 2,
+            "name": "红苹果",
+            "catalogName": "蔬菜 - 白菜",
+            "createUserName": "王浩",
+            "createTime": "2017-07-18 10:20:00",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 1
+        }, {
+            "id": 3,
+            "name": "红苹果",
+            "catalogName": "蔬菜 - 白菜",
+            "createUserName": "王浩",
+            "createTime": "2017-07-18 10:20:00",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 1
+        }, {
+            "id": 4,
+            "name": "红苹果",
+            "catalogName": "蔬菜 - 白菜",
+            "createUserName": "王浩",
+            "createTime": "2017-07-18 10:20:00",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 0
+        }]
+    }
+}

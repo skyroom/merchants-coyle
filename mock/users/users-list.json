@@ -1,0 +1,56 @@
+{
+    "msg": "string",
+    "code": null,
+    "data": {
+        "paging": {
+            "total": 100,
+            "pageSize": 10,
+            "pageIndex": 1
+        },
+        "itemList": [{
+            "id": 1,
+            "name": "王浩",
+            "phone": "123444",
+            "type": 1,
+            "marketName": "市场名字",
+            "createTime": "2017-07-18 10:20:00",
+            "createUserName": "wasd",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 0
+        }, {
+            "id": 1,
+            "name": "王浩",
+            "phone": "123444",
+            "type": 2,
+            "marketName": "市场名字",
+            "createTime": "2017-07-18 10:20:00",
+            "createUserName": "wasd",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 1
+        }, {
+            "id": 1,
+            "name": "王浩",
+            "phone": "123444",
+            "type": 1,
+            "marketName": "市场名字",
+            "createTime": "2017-07-18 10:20:00",
+            "createUserName": "wasd",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 1
+        }, {
+            "id": 1,
+            "name": "王浩",
+            "phone": "123444",
+            "type": 2,
+            "marketName": "市场名字",
+            "createTime": "2017-07-18 10:20:00",
+            "createUserName": "wasd",
+            "updateUserName": "wanghao",
+            "updateTime": "wanghao",
+            "status": 0
+        }]
+    }
+}

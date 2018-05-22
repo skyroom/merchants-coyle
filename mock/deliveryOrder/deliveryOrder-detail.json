@@ -1,0 +1,25 @@
+{
+  "msg": "string",
+  "code": "0",
+  "data": {
+    "paging": {
+      "total": 100,
+      "pageSize": 10,
+      "pageIndex": 1
+    },
+    "itemList": [
+      {
+        "deliveryNumber": "string",
+        "productName": "string",
+        "levelName": "string",
+        "sumWeight": 0,
+        "quantity": 0,
+        "weight": 0,
+        "cost": 0,
+        "areaName": "string",
+        "price": 0,
+        "sumCost": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+dist/
+npm-debug.log
+node_modules/
+.idea/
+code/.idea/
+code/app/pages/test_a.vue
+code/app/pages/test.vue
+code/app/demo.js
+.DS_Store
+dist*.*

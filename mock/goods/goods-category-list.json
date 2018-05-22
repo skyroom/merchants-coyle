@@ -1,0 +1,41 @@
+{
+    "msg": "string",
+    "code": null,
+    "data": [{
+        "id": 1,
+        "name": "上行",
+        "status": 1,
+        "children": [{
+            "id": 2,
+            "name": "水果",
+            "status": -1
+        }, {
+            "id": 3,
+            "name": "蔬菜",
+            "status": 1,
+            "children": [{
+                "id": 9,
+                "name": "青菜",
+                "status": 1
+            }]
+        }]
+    }, {
+        "id": 4,
+        "name": "下行",
+        "status": 1,
+        "children": [{
+            "id": 8,
+            "name": "化肥",
+            "status": 1,
+            "children": [{
+                "id": 6,
+                "name": "话费",
+                "status": -1
+            }]
+        }, {
+            "id": 5,
+            "name": "水泥",
+            "status": 1
+        }]
+    }]
+}

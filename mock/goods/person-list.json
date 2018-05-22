@@ -1,0 +1,40 @@
+{
+    "msg": "成功",
+    "code": "0",
+    "data": {
+        "paging": {
+            "total": 100,
+            "pageSize": 10,
+            "pageIndex": 1
+        },
+        "itemList": [
+            {
+                "id": 0,
+                "name": "张三",
+                "role": 0,
+                "phone": "13333331111",
+                "remark": "洒大地",
+                "createUserName": "张四",
+                "status": 1
+            },
+            {
+                "id": 1,
+                "name": "李四",
+                "role": 1,
+                "phone": "13333331113",
+                "remark": "对方的身份",
+                "createUserName": "李五",
+                "status": 0
+            },
+            {
+                "id": 2,
+                "name": "王五",
+                "role": 2,
+                "phone": "13333332222",
+                "remark": "规划规划",
+                "createUserName": "王六",
+                "status": 1
+            }
+        ]
+    }
+}

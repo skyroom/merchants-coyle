@@ -1,0 +1,29 @@
+{
+  "msg": "string",
+  "code": "0",
+  "data": {
+    "paging": {
+      "total": 100,
+      "pageSize": 10,
+      "pageIndex": 1
+    },
+    "itemList": [
+      {
+        "productName": "string",
+        "levelName": "string",
+        "grossWeight": 0,
+        "weight": 0,
+        "saleWeight": 0,
+        "purchasePrice": 0,
+        "processCost": 0,
+        "freight": 0,
+        "salePrice": 0,
+        "agentFee": 0,
+        "otherFee": 0,
+        "grossProfit": 0,
+        "warehouseYield": 0,
+        "deliveryYield": 0
+      }
+    ]
+  }
+}

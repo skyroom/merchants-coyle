@@ -1,0 +1,325 @@
+{
+    "note": "This is a sample config file. You should change the mockDirectory to a more reasonable path.",
+    "mockDirectory": "./mock",
+    "staticDirectory": "./mock/imgs",
+    "staticPath": "/static",
+    "quiet": false,
+    "port": "60001",
+    "latency": 50,
+    "logRequestHeaders": false,
+    "allowedHeaders": [
+        "Content-Type",
+        "*"
+    ],
+    "webServices": {
+        "backstage-users/login": {
+            "latency": 400,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "region-list.json"
+                }
+            }
+        },
+        "backstage-users/authorities": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "authorities.json"
+                }
+            }
+        },
+        "regions": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "region-list.json"
+                }
+            }
+        },
+
+        "agents/:agentId": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/agents/agent-detail.json"
+                }
+            }
+        },
+        "product/catalogSearchAsync": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/goods-category-list.json"
+                }
+            }
+        },
+        "goods/category": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/goods-category-add.json"
+                }
+            }
+        },
+        "product/:goodsId": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/goods/goods-detail.json"
+                }
+            }
+        },
+        "product/productSearchAsync": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/goods-list.json"
+                }
+            }
+        },
+        "market/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/market/market-list.json"
+                }
+            }
+        },
+        "regions/three": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/region-three-list.json"
+                }
+            }
+        },
+        "user/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/users/users-list.json"
+                }
+            }
+        },
+        "agents/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/agents/agent-list.json"
+                }
+            }
+        },
+        "goods/category/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/goods-category-list.json"
+                }
+            }
+        },
+        "goods/:goodsId": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/goods/goods-detail.json"
+                }
+            }
+        },
+        "goods/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/goods-list.json"
+                }
+            }
+        },
+        "goods/unit": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/goods/goods-unit-list.json"
+                }
+            }
+        },
+        "purchase/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/purchase/purchase-list.json"
+                }
+            }
+        },
+        "purchase/detail/:id": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/purchase/purchase-detail.json"
+                }
+            }
+        },
+        "entry/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/entry/entry-list.json"
+                }
+            }
+        },
+        "warehouse/warehouseEntryDetailSearch/:id": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/entry/entry-detail.json"
+                }
+            }
+        },
+        "ProcessingOrder/ProcessingOrderSearch": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/processing/processing-list.json"
+                }
+            }
+        },
+        "deliveryOrder/deliveryOrderSearch": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/deliveryOrder/deliveryOrder-list.json"
+                }
+            }
+        },
+        "deliveryOrder/deliveryDetailSearch/:id": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/deliveryOrder/deliveryOrder-detail.json"
+                }
+            }
+        },
+        "sellerDetail/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/sale-record/sale-list.json"
+                }
+            }
+        },
+        "productReport/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/sale-report/report-list.json"
+                }
+            }
+        },
+        "seller/search": {
+            "latency": 200,
+            "verbs": [
+                "post"
+            ],
+            "responses": {
+                "post": {
+                    "mockFile": "/sale-report/order-list.json"
+                }
+            }
+        },
+        "seller/detail/:id": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/sale-report/order-detail.json"
+                }
+            }
+        },
+        "ProcessingOrder/ProcessingOrderDetailSearch/:id": {
+            "latency": 200,
+            "verbs": [
+                "get"
+            ],
+            "responses": {
+                "get": {
+                    "mockFile": "/processing/processing-detail.json"
+                }
+            }
+        }
+    }
+}
