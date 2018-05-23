@@ -1,0 +1,23 @@
+{
+    "msg": "string",
+    "code": null,
+    "data": {
+        "paging": {
+            "total": 100,
+            "pageSize": 10,
+            "pageIndex": 1
+        },
+        "itemList": [
+            {
+                "id": 1,
+                "name": "王浩",
+                "desk": 123444,
+                "dish": 1,
+                "persons": 100,
+                "vip": 29,
+                "vouchers": 123,
+                "comment": 236
+            }
+        ]
+    }
+}

@@ -88,61 +88,48 @@ import List from '../../components/biz/list';
 import BaseComponent from '../base';
 import Auth from '../auth';
 
-const colNameMap = [{
-    displayName: '操作',
-    type: 'statusButton',
-    width: 150,
-},
+const colNameMap = [
 {
-    key: 'name',
-    displayName: '姓名',
+    key: 'id',
+    displayName: 'ID',
     width: 140,
 },
 {
-    key: 'phone',
-    displayName: '手机号',
+    key: 'name',
+    displayName: '名称',
     width: 130,
 },
 {
-    key: 'idNumber',
-    displayName: '身份证号',
+    key: 'desk',
+    displayName: '台桌',
     width: 180,
 },
 {
-    key: 'type_f',
-    displayName: '角色',
+    key: 'dish',
+    displayName: '菜品',
     width: 80,
 },
 {
-    key: 'marketName',
-    displayName: '市场',
+    key: 'persons',
+    displayName: '人员',
     minWidth: '150',
 },
 {
-    key: 'status_f',
-    displayName: '状态',
+    key: 'vip',
+    displayName: '会员',
     width: 70,
 },
 {
-    key: 'createUserName',
-    displayName: '创建人',
+    key: 'vouchers',
+    displayName: '代金券',
     width: 100,
 },
 {
-    key: 'createTime_f',
-    displayName: '创建时间',
+    key: 'comment',
+    displayName: '评价',
     width: 180,
 },
-{
-    key: 'updateUserName',
-    displayName: '修改人',
-    width: 100,
-},
-{
-    key: 'updateTime_f',
-    displayName: '修改时间',
-    width: 180,
-}];
+];
 
 export default {
     extends: BaseComponent,
